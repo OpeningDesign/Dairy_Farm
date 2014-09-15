@@ -1,0 +1,462 @@
+
+
+//================= BEGIN REPORT ======================
+
+Exception (maybe handled)
+NetBIOS name: 
+User name   : theor_000
+Account name: theor_000
+Domain name : OPENINGDESIGN
+
+Program Version: 12.0.5241.28647 (64-bit)
+Package Version: Vitruvius 12.0.5241.28647
+Command Line: <"C:\Program Files\Bluebeam Software\Bluebeam Revu\Revu\Revu.exe" "C:\Dropbox\GitHub\Pond_Hill_Dairy\Norbco Gates\PN7755-1000-033_US_SuperGates_1112_lr_tcm297-110339.pdf" >
+Process ID  : 6840
+Thread  ID  : 5736
+OS Version  : Windows WorkStation (6.3) 6.3.9600 (64-bit) 
+
+Session start: 2014/09/04 15:16:10
+System time: 2014/09/04 15:16:11
+
+MS VC minidump file could not be created.
+
+Exception code: C0000005 ACCESS_VIOLATION reading location: 0000000000000000
+Fault address:  00007FF972065BF8 01:00004BF8 KERNELBASE.dll
+TOS   address:  00007FF909D45E58 00:00000000 
+
+Registers:
+RAX:00007FF9699F6220
+RBX:0000009E621E70D8
+RCX:00007FF9699F65C8
+RDX:00007FF909D40020
+RSI:0000009E621DD5E0
+RDI:0000000000000001
+R8: 0000000000000000
+R9: 0000009E022BCE40
+R10:000000000000017A
+R11:0000000009E7D830
+R12:0000009E621E68A8
+R13:0000009E621DE840
+R14:0000009E621E6880
+R15:0000009E621DD6A8
+CS:RIP:0033:00007FF972065BF8
+SS:RSP:002B:0000009E5F458600  RBP:0000009E5F458740
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00000202
+
+Floating point Registers:
+CTRL:027F  STAT:0000  TAGS:0000
+CS:RIP:7FF9:0000000009D45E9C
+DS:EDO:009E:0000000000B6E6C0
+MxCsr:00001FA0
+
+XMM0  = 0000000000000000000000005F5732D0 ===  +0.000000000000e+000  +3.360656177554e-312 ===  +1.550669e+019  +2.214052e-043  +0.000000e+000  +0.000000e+000
+XMM1  = 000000000000041B00000000022BD600 ===  +5.192629937792e-321  +3.352933324322e-312 ===  +1.262451e-037  +2.214052e-043  +1.472765e-042  +0.000000e+000
+XMM2  = 0000000009E7D82000000000FFFFFFFE ===  +6.951878621613e-310  -1.#QNAN0000000e+000 ===  -1.#QNAN0e+000  -1.#QNAN0e+000  +5.581447e-033  +4.590794e-041
+XMM3  = 0000000009E7BF380000000009E7D840 ===  +6.951878621298e-310  +6.951878621615e-310 ===  +5.581459e-033  +4.590794e-041  +5.579105e-033  +4.590794e-041
+XMM4  = 00000000000000A800000000066689F8 ===  +1.060997903783e-313  +3.353283893661e-312 ===  +4.335956e-035  +2.214052e-043  +2.354181e-043  +7.006492e-045
+XMM5  = 00000000000000030000000000000000 ===  +6.951870410781e-310  +3.395193265544e-313 ===  +0.000000e+000  +2.242078e-044  +4.203895e-045  +4.590794e-041
+XMM6  = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM7  = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+
+XMM8  = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM9  = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM10 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM11 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM12 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM13 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM14 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+XMM15 = 00000000000000000000000000000000 ===  +0.000000000000e+000  +0.000000000000e+000 ===  +0.000000e+000  +0.000000e+000  +0.000000e+000  +0.000000e+000
+
+
+Code Dump
+00007FF972065B58  08 00 f6 c3 01 0f 85 ea - 8c 08 00 48 8b 44 24 58  ...........H.D$X
+00007FF972065B68  48 3b c3 0f 84 39 07 0a - 00 48 8b 5c 24 50 48 8b  H;...9...H.\$PH.
+00007FF972065B78  6c 24 60 48 8b 74 24 68 - 48 83 c4 40 5f c3 90 90  l$`H.t$hH..@_...
+00007FF972065B88  90 90 90 90 48 81 ec d8 - 00 00 00 48 8b 05 fe 94  ....H......H....
+00007FF972065B98  0e 00 48 33 c4 48 89 84 - 24 c0 00 00 00 48 83 64  ..H3.H..$....H.d
+00007FF972065BA8  24 28 00 83 e2 01 48 8d - 05 d7 ff ff ff 89 4c 24  $(....H.......L$
+00007FF972065BB8  20 89 54 24 24 48 89 44 - 24 30 4d 85 c9 0f 84 0a   .T$$H.D$0M.....
+00007FF972065BC8  24 00 00 b8 0f 00 00 00 - 48 8d 4c 24 40 49 8b d1  $.......H.L$@I..
+00007FF972065BD8  44 3b c0 44 0f 47 c0 44 - 89 44 24 38 49 c1 e0 03  D;.D.G.D.D$8I...
+00007FF972065BE8  e8 27 ba ff ff 48 8d 4c - 24 20 ff 15 70 ea 0f 00  .'...H.L$ ..p...
+00007FF972065BF8  48 8b 8c 24 c0 00 00 00 - 48 33 cc e8 f8 b7 ff ff  H..$....H3......
+00007FF972065C08  48 81 c4 d8 00 00 00 c3 - 90 90 90 90 90 90 90 90  H...............
+00007FF972065C18  90 90 90 90 90 90 90 90 - 48 83 ec 28 4d 8b 41 38  ........H..(M.A8
+00007FF972065C28  48 8b ca 49 8b d1 e8 11 - 00 00 00 b8 01 00 00 00  H..I............
+00007FF972065C38  48 83 c4 28 c3 90 90 90 - 90 90 90 90 ff f3 48 83  H..(..........H.
+00007FF972065C48  ec 20 45 8b 18 48 8b da - 4c 8b c9 41 83 e3 f8 41  . E..H..L..A...A
+00007FF972065C58  f6 00 04 4c 8b d1 0f 85 - 66 17 09 00 49 63 c3 4a  ...L....f...Ic.J
+00007FF972065C68  8b 14 10 48 8b 43 10 8b - 48 08 48 03 4b 08 f6 41  ...H.C..H.H.K..A
+00007FF972065C78  03 0f 0f 85 63 17 09 00 - 4c 33 ca 49 8b c9 48 83  ....c...L3.I..H.
+00007FF972065C88  c4 20 5b e9 70 b7 ff ff - cc 90 90 90 90 90 90 90  . [.p...........
+
+
+Call stack:
+0x00007FF972065BF8!KERNELBASE.dll + 23544 (RaiseException + 108 bytes)
+0x00007FF9694DA62C!clr.dll + 1877548 (StrongNameSignatureVerification + 133748 bytes)
+0x00007FF9694DA67A!clr.dll + 1877626 (StrongNameSignatureVerification + 133826 bytes)
+0x00007FF9694DA685!clr.dll + 1877637 (StrongNameSignatureVerification + 133837 bytes)
+0x00007FF909D45E58!UNKNOWN_MODULE
+0x00007FF909D459EC!UNKNOWN_MODULE
+0x00007FF909D45250!UNKNOWN_MODULE
+0x00007FF909D44B30!UNKNOWN_MODULE
+0x00007FF909D44906!UNKNOWN_MODULE
+0x00007FF909D44737!UNKNOWN_MODULE
+0x00007FF969360453!clr.dll + 328787
+0x00007FF96936031E!clr.dll + 328478
+0x00007FF969360C9B!clr.dll + 330907
+0x00007FF969360BE6!clr.dll + 330726
+0x00007FF9694CB079!clr.dll + 1814649 (StrongNameSignatureVerification + 70849 bytes)
+0x00007FF96948F147!clr.dll + 1569095 (ClrCreateManagedInstance + 4651 bytes)
+0x00007FF96948EF5E!clr.dll + 1568606 (ClrCreateManagedInstance + 4162 bytes)
+0x00007FF96948EDC1!clr.dll + 1568193 (ClrCreateManagedInstance + 3749 bytes)
+0x00007FF97410D5E1!combase.dll + 120289 (StringFromCLSID + 15269 bytes)
+0x00007FF97410AE4B!combase.dll + 110155 (StringFromCLSID + 5135 bytes)
+0x00007FF97410D6D7!combase.dll + 120535 (StringFromCLSID + 15515 bytes)
+0x00007FF97410D36E!combase.dll + 119662 (StringFromCLSID + 14642 bytes)
+0x00007FF97410CFF3!combase.dll + 118771 (StringFromCLSID + 13751 bytes)
+0x00007FF97410D2FB!combase.dll + 119547 (StringFromCLSID + 14527 bytes)
+0x00007FF97410D406!combase.dll + 119814 (StringFromCLSID + 14794 bytes)
+0x00007FF97410AE4B!combase.dll + 110155 (StringFromCLSID + 5135 bytes)
+0x00007FF97410BC21!combase.dll + 113697 (StringFromCLSID + 8677 bytes)
+0x00007FF97410AE4B!combase.dll + 110155 (StringFromCLSID + 5135 bytes)
+0x00007FF97410BA8F!combase.dll + 113295 (StringFromCLSID + 8275 bytes)
+0x00007FF97411C532!combase.dll + 181554 (CoUnmarshalInterface + 6018 bytes)
+0x00007FF97411CB90!combase.dll + 183184 (CoUnmarshalInterface + 7648 bytes)
+0x00007FF972D58240!shell32.dll + 1147456 (ILCloneFirst + 2560 bytes)
+0x00007FF972D4CE48!shell32.dll + 1101384 (Ordinal866 + 40 bytes)
+0x00007FF972D692CF!shell32.dll + 1217231 (SHEvaluateSystemCommandTemplate + 1655 bytes)
+0x00007FF972D6C4CC!shell32.dll + 1230028 (SHCreateShellItemArrayFromDataObject + 1420 bytes)
+0x00007FF972D6B880!shell32.dll + 1226880 (SHEvaluateSystemCommandTemplate + 11304 bytes)
+0x00007FF97315C74C!shell32.dll + 5359436 (Ordinal927 + 75640 bytes)
+0x00007FF973157DA3!shell32.dll + 5340579 (Ordinal927 + 56783 bytes)
+0x00007FF95A7A9944!explorerframe.dll + 1218884 (Ordinal134 + 595760 bytes)
+0x00007FF95A7A59D3!explorerframe.dll + 1202643 (Ordinal134 + 579519 bytes)
+0x00007FF97315C581!shell32.dll + 5358977 (Ordinal927 + 75181 bytes)
+0x00007FF973161185!shell32.dll + 5378437 (Ordinal927 + 94641 bytes)
+0x00007FF972F6820A!shell32.dll + 3310090 (PathYetAnotherMakeUniqueName + 307186 bytes)
+0x00007FF972D4DFC6!shell32.dll + 1105862 (ILSaveToStream + 1450 bytes)
+0x00007FF974962434!USER32.dll + 9268 (DispatchMessageW + 340 bytes)
+0x00007FF974964E83!USER32.dll + 20099 (CallWindowProcW + 147 bytes)
+0x00007FF96E21B0E4!DUser.dll + 110820 (GadgetTransSettingChanged + 3592 bytes)
+0x00007FF974962434!USER32.dll + 9268 (DispatchMessageW + 340 bytes)
+0x00007FF974963FE2!USER32.dll + 16354 (OffsetRect + 386 bytes)
+0x00007FF97496409D!USER32.dll + 16541 (OffsetRect + 573 bytes)
+0x00007FF974CBCB1F!ntdll.dll + 641823 (KiUserCallbackDispatcher + 31 bytes)
+0x00007FF974961FEA!USER32.dll + 8170 (WindowFromPhysicalPoint + 26 bytes)
+0x00007FF974964B4F!USER32.dll + 19279 (GetParent + 783 bytes)
+0x00007FF97496458E!USER32.dll + 17806 (GetWindowLongPtrA + 782 bytes)
+0x00007FF970C6185A!uxtheme.dll + 6234
+0x00007FF970C61895!uxtheme.dll + 6293
+0x00007FF974964517!USER32.dll + 17687 (GetWindowLongPtrA + 663 bytes)
+0x00007FF95A7424F9!explorerframe.dll + 795897 (Ordinal134 + 172773 bytes)
+0x00007FF96EE01FEA!DUI70.dll + 8170 (DirectUI::HWNDElement::StaticWndProc + 74 bytes)
+0x00007FF974962434!USER32.dll + 9268 (DispatchMessageW + 340 bytes)
+0x00007FF974964E83!USER32.dll + 20099 (CallWindowProcW + 147 bytes)
+0x00007FF96E201E66!DUser.dll + 7782
+0x00007FF974962434!USER32.dll + 9268 (DispatchMessageW + 340 bytes)
+0x00007FF974964E83!USER32.dll + 20099 (CallWindowProcW + 147 bytes)
+0x00007FF96E6D1392!comctl32.dll + 5010 (DefSubclassProc + 178 bytes)
+0x00007FF96E6D1357!comctl32.dll + 4951 (DefSubclassProc + 119 bytes)
+0x00007FF95A6A7698!explorerframe.dll + 161432 (Ordinal111 + 122930 bytes)
+0x00007FF95A6A761A!explorerframe.dll + 161306 (Ordinal111 + 122804 bytes)
+0x00007FF96E6D1292!comctl32.dll + 4754 (DPA_GetPtr + 642 bytes)
+0x00007FF96E6D1357!comctl32.dll + 4951 (DefSubclassProc + 119 bytes)
+0x00007FF95A6A9592!explorerframe.dll + 169362 (Ordinal111 + 130860 bytes)
+0x00007FF96E6D1292!comctl32.dll + 4754 (DPA_GetPtr + 642 bytes)
+0x00007FF96E6D1357!comctl32.dll + 4951 (DefSubclassProc + 119 bytes)
+0x00007FF96E6D13E5!comctl32.dll + 5093 (DefSubclassProc + 261 bytes)
+0x00007FF96E6D1162!comctl32.dll + 4450 (DPA_GetPtr + 338 bytes)
+0x00007FF974962434!USER32.dll + 9268 (DispatchMessageW + 340 bytes)
+0x00007FF974962297!USER32.dll + 8855 (IsThreadDesktopComposited + 503 bytes)
+0x00007FF974986FD7!USER32.dll + 159703 (SetPhysicalCursorPos + 195 bytes)
+0x00007FF9749908E4!USER32.dll + 198884 (GetMenuStringW + 652 bytes)
+0x00007FF97499219A!USER32.dll + 205210 (LoadBitmapA + 358 bytes)
+0x00007FF974992212!USER32.dll + 205330 (DialogBoxIndirectParamAorW + 86 bytes)
+0x00007FF974992248!USER32.dll + 205384 (DialogBoxIndirectParamW + 24 bytes)
+0x00007FF9727F66B2!comdlg32.dll + 26290 (GetFileTitleW + 18450 bytes)
+0x00007FF95115351B!System.Windows.Forms.ni.dll + 8860955
+0x00007FF9513CC0D6!System.Windows.Forms.ni.dll + 11452630
+0x00007FF95126CCD9!System.Windows.Forms.ni.dll + 10013913
+0x00007FF9443DB3F8!Bluebeam.Revu.ni.dll + 14005240
+0x00007FF969360453!clr.dll + 328787
+0x00007FF96936031E!clr.dll + 328478
+0x00007FF9693CA612!clr.dll + 763410 (GetMetaDataInternalInterface + 209362 bytes)
+0x00007FF9693CA406!clr.dll + 762886 (GetMetaDataInternalInterface + 208838 bytes)
+0x00007FF96810C42C!mscorlib.ni.dll + 4637740
+0x00007FF9681165AA!mscorlib.ni.dll + 4679082
+0x00007FF950B6C2D7!System.Windows.Forms.ni.dll + 2671319
+0x00007FF950B6C17F!System.Windows.Forms.ni.dll + 2670975
+0x00007FF968138355!mscorlib.ni.dll + 4817749
+0x00007FF9681380C9!mscorlib.ni.dll + 4817097
+0x00007FF9681380A7!mscorlib.ni.dll + 4817063
+0x00007FF950B6C033!System.Windows.Forms.ni.dll + 2670643
+0x00007FF950B6BC3D!System.Windows.Forms.ni.dll + 2669629
+
+Address space statistics:
+
+Available free memory:                 	131071.03 GB
+The number of free memory blocks:      	425
+The average size of free memory blocks:	308.40 GB
+The number of free memory blocks <  10 kbyte:	   16 (92.00 KB)
+The number of free memory blocks < 100 kbyte:	  255 (12060.00 KB)
+The number of free memory blocks <   1 Mbyte:	   62 (23.44 MB)
+The number of free memory blocks <  10 Mbyte:	   63 (197.64 MB)
+The number of free memory blocks < 100 Mbyte:	   18 (424.94 MB)
+The number of free memory blocks <   1 Gbyte:	    3 (1.45 GB)
+The number of free memory blocks >   1 Gbyte:	    8 (131068.93 GB)
+The biggest free block:
+0x0000013B00024000	129771.99 GB	    free	0x0000000000000000	NOACCESS
+
+
+Stack Dump
+0000009E5F458600  58 5e d4 09 f9 7f 00 00 - d8 70 1e 62 9e 00 00 00  X^.......p.b....
+0000009E5F458610  e0 d5 1d 62 9e 00 00 00 - 01 00 00 00 00 00 00 00  ...b............
+0000009E5F458620  05 00 00 c0 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0000009E5F458630  f8 5b 06 72 f9 7f 00 00 - 02 00 00 00 9e 00 00 00  .[.r............
+0000009E5F458640  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0000009E5F458650  30 8a 45 5f 9e 00 00 00 - a8 68 1e 62 9e 00 00 00  0.E_.....h.b....
+0000009E5F458660  40 e8 1d 62 9e 00 00 00 - e0 d5 1d 62 9e 00 00 00  @..b.......b....
+0000009E5F458670  40 87 45 5f 9e 00 00 00 - b9 4b 31 69 f9 7f 00 00  @.E_.....K1i....
+0000009E5F458680  7f 02 00 00 00 00 00 00 - 7c 15 31 69 00 00 00 00  ........|.1i....
+0000009E5F458690  70 d4 45 5f 00 00 00 00 - a0 1f 00 00 ff ff 00 00  p.E_............
+0000009E5F4586A0  72 65 b8 1a 8b d5 00 00 - 6e 1a 65 69 f9 7f 00 00  re......n.ei....
+0000009E5F4586B0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0000009E5F4586C0  fb 7b 01 49 86 b6 00 00 - 00 00 00 00 00 00 00 00  .{.I............
+0000009E5F4586D0  01 00 00 00 00 00 00 00 - 2c a6 4d 69 f9 7f 00 00  ........,.Mi....
+0000009E5F4586E0  00 00 00 00 00 00 00 00 - d8 70 1e 62 9e 00 00 00  .........p.b....
+0000009E5F4586F0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0000009E5F458700  00 00 00 00 00 00 00 00 - 7a a6 4d 69 f9 7f 00 00  ........z.Mi....
+0000009E5F458710  00 00 00 00 00 00 00 80 - ff 3f 00 00 00 00 00 00  .........?......
+0000009E5F458720  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0000009E5F458730  00 00 00 00 00 00 00 00 - 72 65 b8 1a 8b d5 00 00  ........re......
+
+Loaded modules:
+Base address		Size of image		File name
+0x0000000070B80000		          126976		C:\Program Files\GRAPHISOFT\ArchiCAD 17\ProjectFile.dll (17.0.0 R1 (6004))
+0x0000000070BA0000		          942080		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GDL.dll (17.0.0 R1 (6004))
+0x0000000070C90000		          327680		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSUtils.dll (17.0.0 R1 (6004))
+0x0000000070CE0000		         2076672		C:\Program Files\GRAPHISOFT\ArchiCAD 17\Geometry.dll (17.0.0 R1 (6004))
+0x0000000070EE0000		          376832		C:\Program Files\GRAPHISOFT\ArchiCAD 17\TextEngine.dll (17.0.0 R1 (6004))
+0x0000000070F40000		          159744		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSXMLUtils.dll (17.0.0 R1 (6004))
+0x0000000070F70000		          155648		C:\Program Files\GRAPHISOFT\ArchiCAD 17\Network.dll (17.0.0 R1 (6004))
+0x0000000070FA0000		         2592768		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSXML.dll (17.0.0 R1 (6004))
+0x0000000071220000		          589824		C:\Program Files\GRAPHISOFT\ArchiCAD 17\VBUtils.dll (17.0.0 R1 (6004))
+0x00000000712B0000		          843776		C:\Program Files\GRAPHISOFT\ArchiCAD 17\Graphix.dll (17.0.0 R1 USA (6004))
+0x0000000071380000		         2744320		C:\Program Files\GRAPHISOFT\ArchiCAD 17\ObjectDatabase.dll (17.0.0 R1 (6004))
+0x0000000071620000		         1056768		C:\Program Files\GRAPHISOFT\ArchiCAD 17\InputOutput.dll (17.0.0 R1 (6004))
+0x0000000071730000		         1392640		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSRoot.dll (17.0.0 R1 (6004))
+0x0000000071C00000		          655360		C:\Program Files\GRAPHISOFT\ArchiCAD 17\JACK.dll (17.0.0 R1 USA (6004))
+0x0000000072070000		          503808		C:\Program Files\GRAPHISOFT\ArchiCAD 17\ProjectIO.dll (17.0.0 R1 (6004))
+0x0000000072150000		           73728		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GX.dll (17.0.0 R1 (6004))
+0x0000000072170000		          245760		C:\Program Files\GRAPHISOFT\ArchiCAD 17\TWRoot.dll (17.0.0 R1 (6004))
+0x0000000072810000		           49152		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSProfiler.dll (17.0.0 R1 (6004))
+0x0000000072820000		          278528		C:\Program Files\GRAPHISOFT\ArchiCAD 17\ProjectInfo.dll (17.0.0 R1 USA (6004))
+0x0000000073420000		           65536		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSQuickTime.dll (17.0.0 R1 (6004))
+0x0000000073430000		           81920		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSZLib.dll (17.0.0 R1 (6004))
+0x0000000073450000		          192512		C:\Windows\WinSxS\amd64_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_0a1fd3a3a768b895\ATL90.DLL (9.00.30729.6161)
+0x0000000073550000		           90112		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GXImageBase.dll (17.0.0 R1 (6004))
+0x0000000075E20000		          860160		C:\Windows\SYSTEM32\MSVCR100.dll (10.00.40219.325)
+0x0000000075F00000		          622592		C:\Windows\SYSTEM32\MSVCP100.dll (10.00.40219.325)
+0x0000000075FA0000		          864256		C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.8387_none_08e793bfa83a89b5\MSVCP90.dll (9.00.30729.8387)
+0x0000000076080000		           53248		C:\Windows\WinSxS\amd64_microsoft.vc90.mfcloc_1fc8b3b9a1e18e3b_9.0.30729.6161_none_01c9581e60cbee58\MFC90ENU.DLL (9.00.30729.6161)
+0x0000000076090000		         5148672		C:\Windows\WinSxS\amd64_microsoft.vc90.mfc_1fc8b3b9a1e18e3b_9.0.30729.6161_none_044aad0bab1eb146\mfc90u.dll (9.00.30729.6161)
+0x0000000076580000		          667648		C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.8387_none_08e793bfa83a89b5\MSVCR90.dll (9.00.30729.8387)
+0x0000000180000000		          589824		C:\Windows\SYSTEM32\Bluebeam Jpeg Library.dll (1.0.0.3)
+0x0000009E00670000		           40960		C:\Program Files\Box\Box Sync\IconOverlayClient.dll (1.0.0.1)
+0x0000009E02CD0000		           65536		C:\Program Files (x86)\Common Files\AWS\2.0.3.226\ASUSWSContextMenu.dll (1.0.0.0)
+0x0000009E02CF0000		          221184		C:\Program Files (x86)\Common Files\AWS\2.0.3.226\LogicNP.EZShellExtensions.dll (3.0.0.0)
+0x0000009E04AF0000		          139264		C:\Program Files\Box\Box Sync\SharpShell.dll (2.0.0.0)
+0x0000009E06660000		          368640		C:\Program Files (x86)\Common Files\AWS\2.0.3.226\eCaremeDLL.dll (1.0.0.0)
+0x0000009E5F300000		          155648		C:\Program Files\Bluebeam Software\Bluebeam Revu\Revu\Revu.exe (12.0.5241.28647)
+0x00007FF93E0A0000		        36208640		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.PDF\44e592b42a8a8a1cb7783f2149f80918\Bluebeam.PDF.ni.dll (12.0.5241.28628)
+0x00007FF943680000		        24936448		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Revu\ba2c2e66575e74e02cfa4b06249b17cc\Bluebeam.Revu.ni.dll (12.0.5241.28644)
+0x00007FF945E30000		         2027520		C:\Windows\system32\wpdshext.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9461E0000		         2043904		C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9463E0000		         7409664		C:\Windows\assembly\NativeImages_v4.0.30319_64\FSharp.Core\d9c23e4a0db4008edcbb08c7bbbaf6ff\FSharp.Core.ni.dll (4.3.50727.0)
+0x00007FF946B00000		         5971968		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.BB3D\15aab76242904ed0acf167db16d639c2\Bluebeam.BB3D.ni.dll (12.0.5241.28625)
+0x00007FF9470C0000		         7553024		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Utilities\bb5ba7329cf1ac220570147f5150d96f\Bluebeam.Utilities.ni.dll (12.0.5241.28619)
+0x00007FF948830000		         2052096		C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.Ink\091e95ef39c60b986740e99a01c04c2d\Microsoft.Ink.ni.dll (1.7.2600.2181)
+0x00007FF94B130000		         2088960		C:\Windows\assembly\NativeImages_v4.0.30319_64\SharpDX\54e9c0e09cc33b03a213d1890f4aec15\SharpDX.ni.dll (2.5.0)
+0x00007FF94B330000		         1978368		C:\Windows\assembly\NativeImages_v4.0.30319_64\SharpDX.Direct2D1\aa8f1ababd902cbcedaa2775b8af32b7\SharpDX.Direct2D1.ni.dll (2.5.0)
+0x00007FF94B900000		         1294336		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.XFA\733e366cb649939dda1587046ffb7bec\Bluebeam.XFA.ni.dll (12.0.5241.28625)
+0x00007FF94BA40000		         1060864		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.St179105f9#\b7c78aac272a5fafb5b628c0fa617961\Bluebeam.Studio.Client.ni.dll (12.0.5241.28641)
+0x00007FF94E270000		         1159168		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Fonts\ede3fcebc875a56ed22c2205a1c66abb\Bluebeam.Fonts.ni.dll (12.0.5241.28625)
+0x00007FF94F840000		        17428480		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Web\2e2a972f876941b5d11da10ae390fdf0\System.Web.ni.dll (4.0.30319.34009 built by: FX45W81RTMGDR)
+0x00007FF9508E0000		        16535552		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\00d5b8fae6d70bea4fe037311f3ee7e6\System.Windows.Forms.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF952C70000		          999424		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Runt73a1fc9d#\7b307522da3019e7694bebdaa2da6734\System.Runtime.Remoting.ni.dll (4.0.30319.34107 built by: FX45W81RTMGDR)
+0x00007FF953B90000		          176128		C:\Users\theor_000\AppData\Roaming\Dropbox\bin\DropboxExt64.24.dll (1.0.0.24)
+0x00007FF953C10000		          479232		C:\Windows\System32\dlnashext.dll (12.0.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF953C90000		          438272		C:\Windows\SYSTEM32\irprops.cpl (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF954230000		          380928		C:\Program Files (x86)\REALTEK\Realtek Bluetooth\FtpShellExt.dll (1, 0, 39, 1)
+0x00007FF954290000		         1196032		C:\Program Files\GRAPHISOFT\ArchiCAD 17\GSShellX64.dll (17.0.0 R1 USA (6004))
+0x00007FF9548B0000		          544768		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Wif97403a5#\a6060977b3c9e638507f4aded1c6e297\Bluebeam.Windows.BatchHyperlink.ni.dll (12.0.5241.28659)
+0x00007FF954CB0000		          999424		C:\Windows\SYSTEM32\DDRAW.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF954DB0000		          180224		C:\Windows\SYSTEM32\GLU32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF954DE0000		         1183744		C:\Windows\SYSTEM32\OPENGL32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9551A0000		          655360		C:\Windows\assembly\NativeImages_v4.0.30319_64\ICSharpCoded64bfd68#\b1a70fe08275d5ba1e8ea598677e3575\ICSharpCode.SharpZipLib.ni.dll (0.86.0.518)
+0x00007FF9553F0000		         2215936		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\7b48e37359be1aebd4e9f302040d517d\System.Drawing.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF955610000		         1503232		C:\Program Files (x86)\Common Files\AWS\2.0.3.226\ASUSWSShellExt64.dll (1.1.0.28)
+0x00007FF955780000		          868352		C:\Windows\SYSTEM32\MSVCR110.dll (11.00.51106.1 built by: Q11REL)
+0x00007FF955860000		          684032		C:\Windows\SYSTEM32\MSVCP110.dll (11.00.51106.1 built by: Q11REL)
+0x00007FF955910000		          684032		C:\Program Files (x86)\Adobe\Adobe Creative Cloud\CoreSync\CoreSync_x64.dll (1.2.2.527)
+0x00007FF9559C0000		          729088		C:\Windows\SYSTEM32\ntshrui.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF957A30000		          475136		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Wi8a11dc62#\5a1ff1943c684413c9975400c5c84f2b\Bluebeam.Windows.Redaction.ni.dll (12.0.5241.28657)
+0x00007FF957B90000		         1142784		C:\Windows\system32\SearchFolder.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF959E70000		          376832		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Runt9064068c#\2a3ee6c1ccf3e74097ec163b273d4f92\System.Runtime.Serialization.Formatters.Soap.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF959EE0000		          114688		C:\Windows\System32\DevDispItemProvider.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95A110000		          311296		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Wi44230780#\348ba344c8f12d9c3ec66d012e26ce14\Bluebeam.Windows.Bookmarks.ni.dll (12.0.5241.28659)
+0x00007FF95A160000		          286720		C:\Windows\System32\PlayToDevice.dll (12.0.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95A2E0000		          151552		C:\Windows\System32\EhStorAPI.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95A680000		         2838528		C:\Windows\system32\explorerframe.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95A940000		          561152		C:\Windows\System32\twinapi.appcore.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95B8E0000		          733184		C:\Program Files (x86)\REALTEK\Realtek Bluetooth\obexpf.dll (1, 0, 60, 1)
+0x00007FF95B9A0000		          741376		C:\Windows\System32\twinapi.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF95C400000		          221184		C:\Windows\System32\EhStorShell.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95CED0000		          602112		C:\Windows\System32\StructuredQuery.dll (7.00.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF95D560000		         1687552		C:\Windows\system32\NetworkExplorer.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95DF90000		          552960		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Re955a364f#\9ffcd79a14ada1b6d0020cca8324e682\Bluebeam.Registration.ni.dll (12.0.5241.28620)
+0x00007FF95E090000		          356352		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Wi46f4d195#\f9d3c3010fd29caf9c9c56211c7d1769\Bluebeam.Windows.Acroforms.ni.dll (12.0.5241.28658)
+0x00007FF95E4C0000		          335872		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Windows.OCR\507d3c6faa1f3e8fcb7a72f4234075c1\Bluebeam.Windows.OCR.ni.dll (12.0.5241.28658)
+0x00007FF95EC70000		          540672		C:\Windows\System32\wlidprov.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95F010000		         2916352		C:\Windows\SYSTEM32\MsftEdit.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95F510000		          212992		C:\Windows\assembly\NativeImages_v4.0.30319_64\Bluebeam.Wi4562c800#\194fce7ea3b4f14ba4046fa131b81557\Bluebeam.Windows.Script.ni.dll (12.0.5241.28660)
+0x00007FF95F7A0000		          151552		C:\Windows\system32\mssprxy.dll (7.00.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF95F840000		         1150976		C:\Windows\System32\Windows.Globalization.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF95FB70000		         2859008		C:\Windows\System32\actxprxy.dll (6.3.9600.17122 (winblue_gdr.140512-1255))
+0x00007FF95FF10000		          421888		C:\Windows\System32\provsvc.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9604F0000		          122880		C:\Windows\System32\davclnt.dll (6.3.9600.17041 (winblue_gdr.140305-1710))
+0x00007FF960870000		          122880		C:\Windows\SYSTEM32\BluetoothApis.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF960900000		          176128		C:\Windows\System32\thumbcache.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF960B20000		           49152		C:\Windows\SYSTEM32\LINKINFO.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF960B30000		           36864		C:\Windows\SYSTEM32\WSOCK32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF960C10000		          679936		C:\Windows\System32\PortableDeviceApi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF961080000		           86016		C:\Windows\System32\ntlanman.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9611A0000		           45056		C:\Windows\System32\DAVHLPR.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9611E0000		           45056		C:\Windows\System32\drprov.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF961410000		           65536		C:\Windows\SYSTEM32\cscapi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF961FE0000		          110592		C:\Windows\system32\ncryptsslp.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF962000000		         3825664		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.IdentityModel\ac32a6e90cd2e27f941f1abe2f2d1f2a\System.IdentityModel.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF9623B0000		          696320		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Net.Http\01e3932363de831b74c1b7062f9ce83d\System.Net.Http.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF9625D0000		         3543040		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Runteb92aa12#\209aa0718fe1f200de5ea360d5d4de25\System.Runtime.Serialization.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF962AA0000		           28672		C:\Windows\SYSTEM32\SHFolder.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF962AB0000		           81920		C:\Windows\SYSTEM32\USP10.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF962DA0000		           36864		C:\Windows\System32\rasadhlp.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF962DB0000		          110592		C:\Windows\SYSTEM32\mpr.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9630E0000		         1015808		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Servd1dec626#\8255c49119d777928740b3265631927d\System.ServiceModel.Internals.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF9631E0000		         1241088		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\436bd23db5f3a6b8799945332afc0899\System.Configuration.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF963310000		           36864		c:\PROGRA~2\mcafee\SITEAD~1\x64\saHook.dll (3,7,1,125)
+0x00007FF963740000		           45056		C:\Windows\SYSTEM32\secur32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF963750000		           53248		C:\Windows\SYSTEM32\msdmo.dll (6.6.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF963990000		          806912		C:\Windows\SYSTEM32\winhttp.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF963C40000		        10158080		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\a0f91cf4cae3b99bd02319f6a31fa079\System.Xml.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF964810000		          155648		C:\Windows\assembly\NativeImages_v4.0.30319_64\SMDiagnostics\81a3c1fb27170d09c9f4c35dd793e5ce\SMDiagnostics.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF9648E0000		           94208		C:\Windows\SYSTEM32\samcli.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9649E0000		        26193920		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.ServiceModel\7d1a0cc0f910000914daa4bd6dcfb74e\System.ServiceModel.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF9662E0000		         2416640		C:\Windows\assembly\NativeImages_v4.0.30319_64\Microsoft.V9921e851#\b59fee046dfa048ec5f5180dc88f835d\Microsoft.VisualBasic.ni.dll (12.0.20806.33440 built by: FX45W81RTMREL)
+0x00007FF966550000		         9818112		C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\4c30ba993ce1f4d74c3fe26ffa9cd4a4\System.Core.ni.dll (4.0.30319.33440 built by: FX45W81RTMREL)
+0x00007FF966F00000		        13033472		C:\Windows\assembly\NativeImages_v4.0.30319_64\System\10e3367d9097070044e05c2825a4a1e9\System.ni.dll (4.0.30319.34003 built by: FX45W81RTMGDR)
+0x00007FF967B70000		         1241088		C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll (4.0.30319.34014 built by: FX45W81RTMGDR)
+0x00007FF967CA0000		        22597632		C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\a20cafac04a2e9b3bcb5ec4d674775e5\mscorlib.ni.dll (4.0.30319.34014 built by: FX45W81RTMGDR)
+0x00007FF969230000		          876544		C:\Windows\SYSTEM32\MSVCR120_CLR0400.dll (12.00.20806.33440 built by: FX45W81RTMREL)
+0x00007FF969310000		         9945088		C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll (4.0.30319.34014 built by: FX45W81RTMGDR)
+0x00007FF969C90000		          643072		C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll (4.0.30319.34014 built by: FX45W81RTMGDR)
+0x00007FF969D30000		          409600		C:\Windows\SYSTEM32\MSCOREE.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF969DA0000		         2297856		C:\Windows\System32\WININET.dll (11.00.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF969FE0000		         2797568		C:\Windows\System32\iertutil.dll (11.00.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96A600000		          233472		C:\Windows\SYSTEM32\bthprops.cpl (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96A640000		         1474560		C:\Windows\System32\urlmon.dll (11.00.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96A7B0000		          933888		C:\Windows\System32\MrmCoreR.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96AA60000		           36864		C:\Windows\SYSTEM32\DCIMAN32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96AAC0000		           65536		C:\Program Files (x86)\REALTEK\Realtek Bluetooth\rtsocket.dll (1.0.33.1)
+0x00007FF96ABF0000		          458752		C:\Windows\SYSTEM32\PhotoMetadataHandler.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96AC60000		          147456		C:\Windows\System32\IDStore.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96B980000		          425984		C:\Windows\System32\fwpuclnt.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BC60000		          102400		C:\Windows\SYSTEM32\dhcpcsvc.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BC80000		           81920		C:\Windows\SYSTEM32\dhcpcsvc6.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BD00000		          122880		C:\Windows\System32\SAMLIB.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF96BD40000		          196608		C:\Windows\System32\shacct.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BE30000		           40960		C:\Windows\SYSTEM32\WINNSI.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BE50000		          167936		C:\Windows\SYSTEM32\iphlpapi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96BF60000		          229376		C:\Windows\system32\xmllite.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96C470000		         1605632		C:\Windows\SYSTEM32\dbghelp.dll (6.3.9600.16520 (winblue_gdr.140127-0329))
+0x00007FF96C790000		         1462272		C:\Windows\SYSTEM32\PROPSYS.dll (7.00.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF96CA30000		           90112		C:\Windows\System32\devenum.dll (6.6.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96CA50000		           28672		C:\Windows\assembly\NativeImages_v4.0.30319_64\Revu\6762f38442693709846b78b96773a52b\Revu.ni.exe (12.0.5241.28647)
+0x00007FF96D1B0000		          188416		C:\Windows\SYSTEM32\rasman.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D1E0000		           73728		C:\Windows\SYSTEM32\rtutils.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D200000		          688128		C:\Windows\SYSTEM32\rasapi32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D320000		           90112		C:\Windows\System32\wkscli.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D350000		          622592		C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D500000		         1994752		C:\Windows\SYSTEM32\DWrite.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96D9D0000		          176128		C:\Windows\SYSTEM32\globinputhost.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96DBC0000		          385024		C:\Windows\System32\Bcp47Langs.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96DFF0000		         1671168		C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.17056_none_932f2645474c8242\gdiplus.dll (6.3.9600.17055 (winblue_gdr.140318-1651))
+0x00007FF96E1D0000		          172032		C:\Windows\System32\WINMMBASE.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96E200000		          659456		C:\Windows\system32\DUser.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96E2B0000		          126976		C:\Windows\System32\WINMM.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96E6D0000		         2465792		C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1\comctl32.dll (6.10 (winblue_rtm.130821-1623))
+0x00007FF96E930000		           28672		C:\Windows\SYSTEM32\MSIMG32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96EAB0000		           40960		C:\Windows\SYSTEM32\VERSION.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96EDE0000		          131072		C:\Windows\system32\dwmapi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF96EE00000		         1744896		C:\Windows\system32\DUI70.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9703F0000		         1650688		C:\Windows\SYSTEM32\WindowsCodecs.dll (6.3.9600.16521 (winblue_gdr.140128-1545))
+0x00007FF970AD0000		          651264		C:\Windows\SYSTEM32\SHCORE.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF970B70000		           69632		C:\Windows\System32\WTSAPI32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF970B90000		          557056		C:\Windows\SYSTEM32\apphelp.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF970C60000		         1183744		C:\Windows\system32\uxtheme.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF970DE0000		          155648		C:\Windows\System32\DEVOBJ.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF970E30000		           40960		C:\Windows\SYSTEM32\kernel.appcore.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971160000		          139264		C:\Windows\SYSTEM32\gpapi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971340000		          356352		C:\Windows\System32\WINSTA.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971400000		          438272		C:\Windows\system32\schannel.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9714B0000		          217088		C:\Windows\system32\rsaenh.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9715C0000		          122880		C:\Windows\System32\USERENV.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971620000		          667648		C:\Windows\SYSTEM32\DNSAPI.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9717A0000		          425984		C:\Windows\system32\msv1_0.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971810000		          360448		C:\Windows\system32\mswsock.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971870000		          122880		C:\Windows\SYSTEM32\CRYPTSP.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971980000		           98304		C:\Windows\SYSTEM32\cryptdll.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971A30000		           49152		C:\Windows\System32\netutils.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971A40000		          196608		C:\Windows\SYSTEM32\ntmarta.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971A70000		          237568		C:\Windows\SYSTEM32\NTASN1.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971AB0000		          147456		C:\Windows\SYSTEM32\ncrypt.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971B00000		          155648		C:\Windows\SYSTEM32\bcrypt.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971B30000		          151552		C:\Windows\SYSTEM32\srvcli.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971DD0000		          176128		C:\Windows\SYSTEM32\SspiCli.dll (6.3.9600.16408 (winblue_gdr.130920-1803))
+0x00007FF971E00000		          393216		C:\Windows\SYSTEM32\bcryptPrimitives.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF971E60000		           40960		C:\Windows\SYSTEM32\CRYPTBASE.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971E70000		          618496		C:\Windows\SYSTEM32\sxs.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF971F30000		          282624		C:\Windows\SYSTEM32\powrprof.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF971F90000		           81920		C:\Windows\SYSTEM32\profapi.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF972040000		           73728		C:\Windows\system32\MSASN1.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF972060000		         1110016		C:\Windows\system32\KERNELBASE.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF972170000		         1929216		C:\Windows\system32\CRYPT32.dll (6.3.9600.16431 (winblue_gdr.131015-2301))
+0x00007FF972350000		          303104		C:\Windows\system32\CFGMGR32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9723A0000		          659456		C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.9600.16384_none_34a8918f959016ea\comctl32.dll (6.10 (winblue_rtm.130821-1623))
+0x00007FF972450000		          311296		C:\Windows\system32\WINTRUST.dll (6.3.9600.17085 (winblue_gdr.140330-1035))
+0x00007FF972640000		          331776		C:\Windows\system32\SHLWAPI.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9726A0000		          675840		C:\Windows\system32\ADVAPI32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9727B0000		          212992		C:\Windows\system32\IMM32.DLL (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF9727F0000		          630784		C:\Windows\System32\comdlg32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF972890000		           28672		C:\Windows\system32\PSAPI.DLL (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9728A0000		           36864		C:\Windows\system32\NSI.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9728B0000		         1327104		C:\Windows\system32\GDI32.dll (6.3.9600.17246 (winblue_gdr.140801-1518))
+0x00007FF972A00000		         1916928		C:\Windows\system32\SETUPAPI.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF972BE0000		          360448		C:\Windows\system32\ws2_32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF972C40000		        21102592		C:\Windows\system32\shell32.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF974090000		          356352		C:\Windows\SYSTEM32\sechost.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9740F0000		         1925120		C:\Windows\SYSTEM32\combase.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9742D0000		          671744		C:\Windows\SYSTEM32\clbcatq.dll (2001.12.10530.16384 (winblue_rtm.130821-1623))
+0x00007FF974380000		         1273856		C:\Windows\system32\RPCRT4.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF974530000		          684032		C:\Windows\system32\msvcrt.dll (7.0.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF9745E0000		          749568		C:\Windows\system32\OLEAUT32.dll (6.3.9600.16506)
+0x00007FF9746A0000		         1540096		C:\Windows\system32\ole32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF974820000		         1282048		C:\Windows\system32\MSCTF.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF974960000		         1511424		C:\Windows\system32\USER32.dll (6.3.9600.16384 (winblue_rtm.130821-1623))
+0x00007FF974AE0000		         1286144		C:\Windows\system32\KERNEL32.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+0x00007FF974C20000		         1744896		C:\Windows\SYSTEM32\ntdll.dll (6.3.9600.17031 (winblue_gdr.140221-1952))
+
+
+//+=+=+=+=+=+=+=+=+ END REPORT +=+=+=+=+=+=+=+=+=+=+=+=+
